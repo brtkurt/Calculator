@@ -145,6 +145,7 @@ document.addEventListener("keydown",function(e){
         Calculator1.calculate()
         Calculator1.display()
     }else if(e.key==="Escape"){
+        sound();
         Calculator1.delete();
         Calculator1.display();
     }
