@@ -65,7 +65,7 @@ class Calculator{
         if (isNaN(integer)) {
             newNumber= ""
         } else {
-            newNumber = integer.toLocaleString("en",{maximmumFractionDigit:0})
+            newNumber = integer.toLocaleString("en")
         }
         if (digit != null) {
             return integer +"."+digit
