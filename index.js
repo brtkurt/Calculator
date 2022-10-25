@@ -52,8 +52,6 @@ class Calculator{
             case"/":
                 solution = previousItem / currentItem
                     break;
-            default:
-                return;
         }
         this.current = solution;
         this.previous = " ";
