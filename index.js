@@ -12,7 +12,10 @@ class Calculator{
         
     }
     addNumber(numberButton){
-        if(numberButton==="+/-"){
+        if(numberButton==="%"){
+            return this.current/= 100
+        }
+        else if(numberButton==="+/-"){
             return this.current*= -1
         }
         if( numberButton === "." && this.current.toString().includes(".")) return
