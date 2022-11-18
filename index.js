@@ -68,7 +68,7 @@ class Calculator{
             newNumber = integer.toLocaleString("en")
         }
         if (digit != null) {
-            return integer +"."+digit
+            return integer + "."+digit
             
         } else {
             return newNumber
